@@ -35,7 +35,7 @@
 
 			<ul class="quality-image-list"> 
 				<li class="quality-image-item">
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/1 (1).jpg" alt="三次元測定器" />
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/001.jpg" alt="三次元測定器" />
 				</li>
 				<li class="quality-text-item">
 					<i class="fa fa-caret-right"></i>
@@ -46,7 +46,7 @@
 					複雑な形状まで幅広く対応いたします。
 				</li>
 				<li class="quality-image-item">
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/2 (1).jpg" alt="三次元測定器" />
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/002.jpg" alt="三次元測定器" />
 				</li>
 				<li class="quality-text-item">
 					<i class="fa fa-caret-right"></i>
@@ -55,7 +55,7 @@
 					型名：VMR-6555
 				</li>
 				<li class="quality-image-item">
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/3.jpg" alt="顕微鏡測定器" />
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/003.jpg" alt="顕微鏡測定器" />
 				</li>
 				<li class="quality-text-item">
 					<i class="fa fa-caret-right"></i>
@@ -75,7 +75,7 @@
 					三次元画像で観察でき、寸法測定も出来ます。
 				</li>
 				<li class="quality-image-item">
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/5.jpg" alt="恒温槽" />
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/005.jpg" alt="恒温槽" />
 				</li>
 				<li class="quality-text-item">
 					<i class="fa fa-caret-right"></i>
@@ -115,7 +115,7 @@
 					塗装、印刷等の色味の管理に使用します。
 				</li>
 				<li class="quality-image-item">
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/9.jpg" alt="密着評価機" />
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/009.jpg" alt="密着評価機" />
 				</li>
 				<li class="quality-text-item">
 					<i class="fa fa-caret-right"></i>

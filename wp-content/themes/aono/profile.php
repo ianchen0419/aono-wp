@@ -2,8 +2,8 @@
 <?php get_header(); ?>
 
 <div id="visual">
-		<picture> 
-			<source media="(max-width: 480px)" srcset="<?php bloginfo('template_directory') ?>/inc/img/profile/profile_mobile.png" /> 
+	<picture> 
+		<source media="(max-width: 480px)" srcset="<?php bloginfo('template_directory') ?>/inc/img/profile/profile_mobile.png" /> 
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/profile/profile.png" alt="会社案内" width="100%" /> 
 		</picture>
 		<div class="visual-title-area">
@@ -74,10 +74,26 @@
 
 			<div class="ios-area">
 				<img src="<?php bloginfo('template_directory') ?>/inc/img/profile/asr02.gif" alt="ios認証" />
-				<ul class="ios-list">
-					<li>2004年9月取得ISO9001を取得しました。徹底した品質管理を追及しております。</li>
-					<li>2006年2月取得ISO14001を取得しました。環境に配慮した物作りを行っています。</li>
-				</ul>
+				
+					<div class="ios-item">
+						ISO 9001:2015<br>
+						- 登録番号:ASR-Q0462<br>
+						- 登録日:2004年9月15日<br>
+						- 改定日:2017年11月9日<br>
+						- 有効期限:2019年9月14日
+					</div>
+					<div class="ios-item">
+						ISO 14001:2015<br>
+						- 登録番号:ASR-E0084<br>
+						- 登録日:2006年2月20日<br>
+						- 改定日:2017年9月5日<br>
+						- 有効期限:2020年9月16日
+					</div>
+					<div class="ios-item">
+						パナソニック(株)セミコンダクター社<br>
+						品質自主保証会社 認定<br>
+						2009年12月1日 取得
+					</div>
 			</div>
 
 			<h2 class="title-2">
@@ -170,4 +186,4 @@
 		</div>
 	</div>
 
-<?php get_footer(); ?>
+	<?php get_footer(); ?>

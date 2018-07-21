@@ -966,15 +966,14 @@ body.showing {
 	vertical-align: top;
 }
 
-.ios-list {
+
+.ios-item {
 	display: inline-block;
 	vertical-align: top;
+	width: 20%;
+	margin: 0 20px;
 }
 
-.ios-list li {
-	list-style: none;
-	margin-bottom: 20px;
-}
 
 .map-item {
 	display: inline-block;
