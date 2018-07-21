@@ -46,7 +46,7 @@
 	</div>
 	<div class="wrapper-size">
 		<div class="advantage-area">
-			<article class="center-article">射出成形・プラスチック成形・金型・プラスチック塗装・成形不良対策の事まで、一貫生産体制を構築しています。<br>成形に関するさまざまなお悩み・ご希望にスピーディーにお応えします。</article>
+			<article class="center-article">射出成形・プラスチック成形・金型・プラスチック塗装・成形不良対策の事まで、一貫生産体制を構築しています。<br>成形に関するさまざまなお悩み・ご希望にスピーディーにお応えします。<br>350tクラスを保有し、ニーズに応える厚肉成形、超薄肉成形に対応しています。</article>
 			<div class="advantage-image-wrapper">
 				<a href="advantage1.html">
 					<div class="advantage-image-item">

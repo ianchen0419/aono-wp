@@ -50,9 +50,9 @@
 				</li>
 				<li class="quality-text-item">
 					<i class="fa fa-caret-right"></i>
-					三次元測定器<br>
-					メーカ：ミツトヨ<br>
-					型式：BRT-５０４
+					CNC画像測定システム NEXIV<br>
+					メーカ：ニコン<br>
+					型名：VMR-6555
 				</li>
 				<li class="quality-image-item">
 					<img src="<?php bloginfo('template_directory') ?>/inc/img/quality/3.jpg" alt="顕微鏡測定器" />

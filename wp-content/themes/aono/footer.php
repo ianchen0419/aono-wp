@@ -58,7 +58,7 @@
 <script src="<?php bloginfo('template_directory') ?>/base.js"></script>
 
 <?php if(is_page_template('profile.php')): ?>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm2EfNKgkxCRJRNikdhkvVLc1UL8EH8WI&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHREQgV1IXGfh9-ZkkwricG1ZhNKy-MRQ&callback=initMap"
   async defer></script>
 <?php endif; ?>
 

@@ -1451,7 +1451,7 @@ ul.sitemap-detail-list {
 		bottom: 0px;
 		font-size: 11pt;
 		text-shadow: none;
-		background: rgba(208, 36, 44, 0.9);
+		background: rgba(217, 132, 148, 0.9);
 		padding: 20px 10px;
 		box-sizing: border-box;
 		height: 106px;
@@ -1466,6 +1466,10 @@ ul.sitemap-detail-list {
 
 	.dot {
 		background-color: #c4c4c4;
+	}
+
+	.advantage-area article.center-article, .gallery-area article.center-article {
+		text-align: left;
 	}
 
 	.advantage-image-item,.gallery-image-item{
@@ -1493,6 +1497,7 @@ ul.sitemap-detail-list {
 
 	.title-1 {
 		font-size: 17pt;
+		margin: 40px 0;
 	}
 
 	.title-1:after {
