@@ -134,7 +134,7 @@
 				<input name="code" type="hidden" value="<?php echo rand(10000,100000000000); ?>" />  
 				
 				<div class="btn-box">
-					<input type="submit" name="your_submit"  />
+					<input type="submit" name="your_submit" value="送信"  />
 				</div>
 
 			</form>
