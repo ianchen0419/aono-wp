@@ -123,13 +123,13 @@
 							<span><?php echo (get_current_blog_id()==1)?'会社案内':'About us' ?></span>
 							<ul class="child-menu">
 								<a href="profile">
-									<li><?php echo (get_current_blog_id()==1)?'会社概要':'About us' ?></li>
+									<li><?php echo (get_current_blog_id()==1)?'会社概要':'Outline' ?></li>
 								</a>
 								<a href="message">
 									<li><?php echo (get_current_blog_id()==1)?'経営方針・沿革':'Philosophy / History' ?></li>
 								</a>
-								<a href="recruit">
-									<li><?php echo (get_current_blog_id()==1)?'リクルート':'Recruit' ?></li>
+								<a href="recruit" class="en-hide">
+									<li>リクルート</li>
 								</a>
 							</ul>
 						</li>
@@ -193,13 +193,13 @@
 							</div>
 							<ul class="mobile-child-list">
 								<li>
-									<a href="profile"><?php echo (get_current_blog_id()==1)?'会社概要':'About us' ?></a>
+									<a href="profile"><?php echo (get_current_blog_id()==1)?'会社概要':'Outline' ?></a>
 								</li>
 								<li>
 									<a href="message"><?php echo (get_current_blog_id()==1)?'経営方針・沿革':'Philosophy / History' ?></a>
 								</li>
-								<li>
-									<a href="recruit"><?php echo (get_current_blog_id()==1)?'リクルート':'Recruit' ?></a>
+								<li class="en-hide">
+									<a href="recruit">リクルート</a>
 								</li>
 							</ul>
 						</li>

@@ -252,201 +252,201 @@
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/aono_b_1.jpg" alt="スマートフォンカバー" />
 						<div class="image-footer">
-							<span>スマートフォンカバー</span>
+							<span><?php echo (get_current_blog_id()==1)?'スマートフォンカバー':'Smartphone cover' ?></span>
 							<br />
-							<small>漆風UV塗装・蒸着</small>
+							<small><?php echo (get_current_blog_id()==1)?'漆風UV塗装・蒸着':'Lacquered UV coating / vapor deposition' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/aono_b_2.jpg" alt="携帯電話" />
 						<div class="image-footer">
-							<span>携帯電話</span>
+							<span><?php echo (get_current_blog_id()==1)?'携帯電話':'Cell phone' ?></span>
 							<br />
-							<small>UV塗装・蒸着部品</small>
+							<small><?php echo (get_current_blog_id()==1)?'UV塗装・蒸着部品':'UV coating / vapor deposition' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/aono_b_3.jpg" alt="携帯電話" />
 						<div class="image-footer">
-							<span>携帯電話</span>
+							<span><?php echo (get_current_blog_id()==1)?'携帯電話':'Cell phone' ?></span>
 							<br />
-							<small>UV塗装・蒸着部品</small>
+							<small><?php echo (get_current_blog_id()==1)?'UV塗装・蒸着部品':'UV coating / vapor deposition' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/aono_b_4.jpg" alt="携帯電話" />
 						<div class="image-footer">
-							<span>携帯電話</span>
+							<span><?php echo (get_current_blog_id()==1)?'携帯電話':'Cell phone' ?></span>
 							<br />
-							<small>マスキング UV塗装・蒸着部品</small>
+							<small><?php echo (get_current_blog_id()==1)?'マスキング UV塗装・蒸着部品':'Masking UV coating / vapor deposition' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/aono_b_5.jpg" alt="携帯電話" />
 						<div class="image-footer">
-							<span>携帯電話</span>
+							<span><?php echo (get_current_blog_id()==1)?'携帯電話':'Cell phone' ?></span>
 							<br />
-							<small>マスキング UV塗装・蒸着部品</small>
+							<small><?php echo (get_current_blog_id()==1)?'マスキング UV塗装・蒸着部品':'Masking UV coating / vapor deposition' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/aono_b_6.jpg" alt="携帯電話" />
 						<div class="image-footer">
-							<span>携帯電話</span>
+							<span><?php echo (get_current_blog_id()==1)?'携帯電話':'Cell phone' ?></span>
 							<br />
-							<small>メカ部品 ASSY部品</small>
+							<small><?php echo (get_current_blog_id()==1)?'メカ部品 ASSY部品':'Mechanical parts / ASSY parts' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/aono_b_7.jpg" alt="携帯電話" />
 						<div class="image-footer">
-							<span>携帯電話</span>
+							<span><?php echo (get_current_blog_id()==1)?'携帯電話':'Cell phone' ?></span>
 							<br />
-							<small>メカ部品</small>
+							<small><?php echo (get_current_blog_id()==1)?'メカ部品':'Mechanical parts' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9_2.jpg" alt="IoT関連部品" />
 						<div class="image-footer">
-							<span>IoT関連部品</span>
+							<span><?php echo (get_current_blog_id()==1)?'IoT関連部品':'IoT related parts' ?></span>
 							<br />
-							<small>ヘッドマウントディスプレー（ウェアラブルキーボード）<br>※塗装・アウトサート仕様　100t成形機</small>
+							<small><?php echo (get_current_blog_id()==1)?'ヘッドマウントディスプレー（ウェアラブルキーボード）<br />※塗装・アウトサート仕様　100t成形機':'Head Mounted Display (Wearable Keyboard)<br />*Painting / Outsert specification 100t molding machine' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9_8.jpg" alt="無線機部品" />
 						<div class="image-footer">
-							<span>無線機部品</span>
+							<span><?php echo (get_current_blog_id()==1)?'無線機部品':'Radio equipment parts' ?></span>
 							<br />
-							<small>特定小電力トランシーバー（据え置き型ベース機）<br>※印刷・メッキ仕様 150t成形機</small>
+							<small><?php echo (get_current_blog_id()==1)?'特定小電力トランシーバー（据え置き型ベース機）<br />※印刷・メッキ仕様 150t成形機':'Specified low power transceiver (stationary base machine)<br />*Printing / Plating specification 150t molding machine' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9_9.jpg" alt="IoT関連部品" />
 						<div class="image-footer">
-							<span>IoT関連部品</span>
+							<span><?php echo (get_current_blog_id()==1)?'IoT関連部品':'IoT related parts' ?></span>
 							<br />
-							<small>給水ポンプ 表示窓部 ※150t成形機<br>ＰＣ透明マスキング塗装</small>
+							<small><?php echo (get_current_blog_id()==1)?'給水ポンプ 表示窓部 ※150t成形機<br />ＰＣ透明マスキング塗装':'Water supply pump display window * 150t molding machine<br />PC transparent masking painting' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9_4.jpg" alt="WiFiケース" />
 						<div class="image-footer">
-							<span>WiFiケース</span>
+							<span><?php echo (get_current_blog_id()==1)?'WiFiケース':'WiFi case' ?></span>
 							<br />
-							<small>WiFiルーター ※180t成形機</small>
+							<small><?php echo (get_current_blog_id()==1)?'WiFiルーター ※180t成形機':'WiFi router *180t molding machine' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9_3.jpg" alt="WiFiケース" />
 						<div class="image-footer">
-							<span>WiFiケース</span>
+							<span><?php echo (get_current_blog_id()==1)?'WiFiケース':'WiFi case' ?></span>
 							<br />
-							<small>WiFiルーター</small>
+							<small><?php echo (get_current_blog_id()==1)?'WiFiルーター':'WiFi router' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9_7.jpg" alt="海上用GPS部品" />
 						<div class="image-footer">
-							<span>海上用GPS部品</span>
+							<span><?php echo (get_current_blog_id()==1)?'海上用GPS部品':'Marine GPS parts' ?></span>
 							<br />
-							<small>GPS受信機 ※ねじ切り型・肉厚成形 220t成形機</small>
+							<small><?php echo (get_current_blog_id()==1)?'GPS受信機 ※ねじ切り型・肉厚成形 220t成形機':'GPS receiver *Thread cutting type · thick wall molding 220t molding machine' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9_5.jpg" alt="海上用GPS部品" />
 						<div class="image-footer">
-							<span>海上用GPS部品</span>
+							<span><?php echo (get_current_blog_id()==1)?'海上用GPS部品':'Marine GPS parts' ?></span>
 							<br />
-							<small>ケース　※220成形</small>
+							<small><?php echo (get_current_blog_id()==1)?'ケース　※220成形':'Case *220 molding' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9_6.jpg" alt="ブースターケース" />
 						<div class="image-footer">
-							<span>ブースターケース</span>
+							<span><?php echo (get_current_blog_id()==1)?'ブースターケース':'Booster case' ?></span>
 							<br />
-							<small>映像分配器</small>
+							<small><?php echo (get_current_blog_id()==1)?'映像分配器':'Video distributor' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9.jpg" alt="蓄電池用ケース" />
 						<div class="image-footer">
-							<span>蓄電池用ケース</span>
+							<span><?php echo (get_current_blog_id()==1)?'蓄電池用ケース':'Resin case for storage battery' ?></span>
 							<br />
-							<small>産業用リチウムイオン電池ケース ※350t成形機</small>
+							<small><?php echo (get_current_blog_id()==1)?'産業用リチウムイオン電池ケース ※350t成形機':'Industrial lithium ion battery case *350t molding machine' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_9_1.jpg" alt="蓄電池用ケース" />
 						<div class="image-footer">
-							<span>蓄電池用ケース</span>
+							<span><?php echo (get_current_blog_id()==1)?'蓄電池用ケース':'Resin case for storage battery' ?></span>
 							<br />
-							<small>産業用リチウムイオン電池ケース<br>※インサート(ナット27個)成形</small>
+							<small><?php echo (get_current_blog_id()==1)?'産業用リチウムイオン電池ケース<br />※インサート(ナット27個)成形':'Industrial lithium ion battery case<br />* Insert (27 nuts) molding' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_8.jpg" alt="カーエレクトロニクス" />
 						<div class="image-footer">
-							<span>カーエレクトロニクス</span>
+							<span><?php echo (get_current_blog_id()==1)?'カーエレクトロニクス':'Car electronics' ?></span>
 							<br />
-							<small>カーナビゲーション部品 PANEL鏡面仕上げ</small>
+							<small><?php echo (get_current_blog_id()==1)?'カーナビゲーション部品 PANEL鏡面仕上げ':'Car navigation parts' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_7.jpg" alt="カーエレクトロニクス" />
 						<div class="image-footer">
-							<span>カーエレクトロニクス</span>
+							<span><?php echo (get_current_blog_id()==1)?'カーエレクトロニクス':'Car electronics' ?></span>
 							<br />
-							<small>カーナビゲーション部品 ※塗装・印刷仕様</small>
+							<small><?php echo (get_current_blog_id()==1)?'カーナビゲーション部品 ※塗装・印刷仕様':'Car navigation parts *painting and printing specifications' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_3.jpg" alt="屈折計ケース" />
 						<div class="image-footer">
-							<span>屈折計ケース</span>
+							<span><?php echo (get_current_blog_id()==1)?'屈折計ケース':'Refractometer case' ?></span>
 							<br />
-							<small>ポータブル屈折施光計　※メッキ・印刷・ヘアーライン仕様</small>
+							<small><?php echo (get_current_blog_id()==1)?'ポータブル屈折施光計　※メッキ・印刷・ヘアーライン仕様':'Portable refractive refractometer *plating / printing / hairline specification' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_2.jpg" alt="糖度計ケース" />
 						<div class="image-footer">
-							<span>糖度計ケース</span>
+							<span><?php echo (get_current_blog_id()==1)?'糖度計ケース':'Saccharimeter case' ?></span>
 							<br />
-							<small>ポケット糖度計</small>
+							<small><?php echo (get_current_blog_id()==1)?'ポケット糖度計':'Pocket saccharimeter' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_4.jpg" alt="電流計部品" />
 						<div class="image-footer">
-							<span>電流計部品</span>
+							<span><?php echo (get_current_blog_id()==1)?'電流計部品':'Ammeter parts' ?></span>
 							<br />
-							<small>※エラストマ インサート成形</small>
+							<small><?php echo (get_current_blog_id()==1)?'※エラストマ インサート成形':'*Elastomer insert molding' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_5.jpg" alt="カメラ用部品" />
 						<div class="image-footer">
-							<span>カメラ用部品</span>
+							<span><?php echo (get_current_blog_id()==1)?'カメラ用部品':'Camera parts' ?></span>
 							<br />
-							<small>防犯カメラパーツ 50～100t成形機<br>ネジ切り型ラックモーター仕様</small>
+							<small><?php echo (get_current_blog_id()==1)?'防犯カメラパーツ 50～100t成形機<br />ネジ切り型ラックモーター仕様':'Security camera parts 50-100t molding machine<br />Threaded rack motor specification' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_6.jpg" alt="レギュレーター部品" />
 						<div class="image-footer">
-							<span>レギュレーター部品</span>
+							<span><?php echo (get_current_blog_id()==1)?'レギュレーター部品':'Regulator parts' ?></span>
 							<br />
-							<small>レギュレーター、外ネジ、内ネジ切り型 ラックギヤ仕様</small>
+							<small><?php echo (get_current_blog_id()==1)?'レギュレーター、外ネジ、内ネジ切り型 ラックギヤ仕様':'Regulator, external thread, internally threaded rack gear specification' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_1.jpg" alt="バルブ・電磁弁・空圧機器" />
 						<div class="image-footer">
-							<span>バルブ・電磁弁・空圧機器</span>
+							<span><?php echo (get_current_blog_id()==1)?'バルブ・電磁弁・空圧機器':'Valve, solenoid valve, pneumatic device' ?></span>
 							<br />
-							<small>※オリジナル調色対応も可　30～50t成形機</small>
+							<small><?php echo (get_current_blog_id()==1)?'※オリジナル調色対応も可　30～50t成形機':'* Original toning correspondence is also possible, 30 to 50t molding machine' ?></small>
 						</div>
 					</div>
 					

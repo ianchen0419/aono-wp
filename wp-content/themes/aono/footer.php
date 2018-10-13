@@ -39,10 +39,12 @@
 				<li class="child-list">
 					<a href="message"><?php echo (get_current_blog_id()==1)?'経営方針・沿革':'Philosophy / History' ?></a>
 				</li>
-				<li class="child-list">
-					<a href="recruit"><?php echo (get_current_blog_id()==1)?'リクルート':'Recruit' ?></a>
+				<li class="child-list en-hide">
+					<a href="recruit">リクルート</a>
 				</li>
-				<?php echo (get_current_blog_id()==1)?'<li><a href="privacy">プライバシーポリシー</a></li>':'' ?>
+				<li class="child-list en-hide">
+					<a href="privacy">プライバシーポリシー</a>
+				</li>
 				<li>
 					<a href="sitemap"><?php echo (get_current_blog_id()==1)?'サイトマップ':'Sitemap' ?></a>
 				</li>

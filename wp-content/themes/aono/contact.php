@@ -20,7 +20,7 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/contact/contact.png" alt="お問い合わせ" width="100%" /> 
 		</picture>
 		<div class="visual-title-area">
-			<h1>お問い合わせ</h1>
+			<h1><?php echo (get_current_blog_id()==1)?'お問い合わせ':'Contact us' ?></h1>
 		</div>
 
 	</div>
@@ -28,15 +28,13 @@
 	<div class="wrapper-size">
 			<ol class="contact-path">
 				<li>
-					<a href="<?php bloginfo('url') ?>">ホーム</a>
+					<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 				</li>
-				<li>お問い合わせ</li>
+				<li><?php echo (get_current_blog_id()==1)?'お問い合わせ':'Contact us' ?></li>
 			</ol>	
 
 			<article class="left-article">
-				この度はお問合せいただき、誠にありがとうございます。<br>
-				必要な項目をご記入の上、送信ボタンをクリックしてください。<br>
-				※当社の営業時間は、平日月曜日から金曜日の8:30から17:30までとなります。
+				<?php echo (get_current_blog_id()==1)?'この度はお問合せいただき、誠にありがとうございます。<br />必要な項目をご記入の上、送信ボタンをクリックしてください。<br />※当社の営業時間は、平日月曜日から金曜日の8:30から17:30までとなります。':'Thank you very much for visiting our website.<br />Please fill in the necessary items and click the submit button.<br />※ Our business hours are from 8:30 to 17:30, Monday to Friday.' ?>
 			</article>
 			
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -47,27 +45,27 @@
 			
 				<table class="contact-table">
 					<tr>
-						<th width="35%">貴社名</th>
+						<th width="35%"><?php echo (get_current_blog_id()==1)?'貴社名':'Company' ?></th>
 						<td width="65%">
 							<input type="text" name="your_company" />
 						</td>
 					</tr>
 					<tr>
-						<th>部署名</th>
+						<th><?php echo (get_current_blog_id()==1)?'部署名':'Department' ?></th>
 						<td>
 							<input type="text" name="your_division" />
 						</td>
 					</tr>
 					<tr>
 						<th>
-							<span>お名前</span>
-							<span class="badge">必須</span>
+							<span><?php echo (get_current_blog_id()==1)?'お名前':'Name' ?></span>
+							<span class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></span>
 						</th>
 						<td>
 							<input type="text" name="your_name" required />
 						</td>
 					</tr>
-					<tr>
+					<tr class="en-hide">
 						<th>
 							<span>ふりがな</span>
 							<span class="badge">必須</span>
@@ -78,8 +76,8 @@
 					</tr>
 					<tr>
 						<th>
-							<span>メールアドレス</span>
-							<span class="badge">必須</span>
+							<span><?php echo (get_current_blog_id()==1)?'メールアドレス':'E-mail address' ?></span>
+							<span class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></span>
 						</th>
 						<td>
 							<input type="email" name="your_mail" required />
@@ -87,8 +85,8 @@
 					</tr>
 					<tr>
 						<th>
-							<span>メールアドレス（確認用）</span>
-							<span class="badge">必須</span>
+							<span><?php echo (get_current_blog_id()==1)?'メールアドレス（確認用）':'E-mail address<br />(for confirmation)' ?></span>
+							<span class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></span>
 						</th>
 						<td>
 							<input type="email" name="your_mail(confirm)" required />
@@ -96,35 +94,35 @@
 					</tr>
 					<tr>
 						<th>
-							<span>電話番号</span>
-							<span class="badge">必須</span>
+							<span><?php echo (get_current_blog_id()==1)?'電話番号':'Telephone' ?></span>
+							<span class="badge"><?php echo (get_current_blog_id()==1)?'必須':'Required' ?></span>
 						</th>
 						<td>
 							<input type="tel" name="your_phone" required />
 						</td>
 					</tr>
 					<tr>
-						<th>お問い合わせ種類</th>
+						<th><?php echo (get_current_blog_id()==1)?'お問い合わせ種類':'Category' ?></th>
 						<td>
 							<label class="radio-label">
 								<input type="radio" name="your_type"  value="soudan" />
 								<div class="radio-widget"></div>
-								<span>ご相談</span>
+								<span><?php echo (get_current_blog_id()==1)?'ご相談':'Consultation' ?></span>
 							</label>
 							<label class="radio-label">
 								<input type="radio" name="your_type" value="saiyou" />
 								<div class="radio-widget"></div>
-								<span>採用について</span>
+								<span><?php echo (get_current_blog_id()==1)?'採用について':'Recruit' ?></span>
 							</label>
 							<label class="radio-label">
 								<input type="radio" name="your_type" value="sonota" />
 								<div class="radio-widget"></div>
-								<span>その他</span>
+								<span><?php echo (get_current_blog_id()==1)?'その他':'Others' ?></span>
 							</label>
 						</td>
 					</tr>
 					<tr>
-						<th>お問い合わせ内容</th>
+						<th><?php echo (get_current_blog_id()==1)?'お問い合わせ内容':'Content of inquiry' ?></th>
 						<td>
 							<textarea cols="30" rows="10" name="your_message"></textarea>
 						</td>
@@ -134,7 +132,7 @@
 				<input name="code" type="hidden" value="<?php echo rand(10000,100000000000); ?>" />  
 				
 				<div class="btn-box">
-					<input type="submit" name="your_submit" value="送信" />
+					<input type="submit" name="your_submit" value="<?php echo (get_current_blog_id()==1)?'送信':'Submit' ?>" />
 				</div>
 
 			</form>
@@ -184,7 +182,12 @@
 					if(wp_mail($to, $subject, $content)) {
 					    //成功時の記述
 						// print_r('送信成功しました');
-						print_r('お問い合わせありがとうございます。<br>追って担当者よりご連絡いたします。');
+						if(get_current_blog_id()==1){
+							print_r('お問い合わせありがとうございます。<br>追って担当者よりご連絡いたします。');
+						}else{
+							print_r('Thank you for your interest in Aono Industrial.<br>We will review your inquiry and contact you.');
+						}
+						
 						$_POST = array();
 
 					} else {
@@ -195,7 +198,7 @@
 				}
 						
 	
-				?>
+			?>
 
 
 		</div>

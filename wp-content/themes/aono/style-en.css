@@ -320,7 +320,7 @@ $textBlack: #444444
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	min-height: calc(100vh - 390px);
+	min-height: calc(100vh - 370px);
 }
 
 .title-1 {
@@ -1245,6 +1245,10 @@ ul.sitemap-detail-list {
 	font-size: 19pt;
 	margin: 40px;
 	display: inline-block;
+}
+
+.en-hide {
+	display: none;
 }
 
 
