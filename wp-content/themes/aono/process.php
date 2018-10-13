@@ -14,12 +14,12 @@
 		<div class="wrapper-size">
 			<ol class="contact-path">
 				<li>
-					<a href="index">ホーム</a>
+					<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 				</li>
 				<li>
-					<a href="process">生産・品質</a>
+					<a href="process"><?php echo (get_current_blog_id()==1)?'生産・品質':'Production / Quality' ?></a>
 				</li>
-				<li>一貫生産体制</li>
+				<li>一貫生産体制<?php echo (get_current_blog_id()==1)?'生産・品質':'Production / Quality' ?></li>
 			</ol>	
 
 			<p class="process-title">金型の設計、試作、量産成形、２次加工、組立まで一貫してお引き受けいたします。</p>

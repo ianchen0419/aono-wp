@@ -6,10 +6,10 @@
 		<?php while ( have_posts() ) : the_post(); ?>
 			<ol class="contact-path">
 				<li>
-					<a href="index">ホーム</a>
+					<a href="<?php bloginfo('url') ?>">ホーム</a>
 				</li>
 				<li>
-					<a href="news.html">お知らせ</a>
+					<a href="news">お知らせ</a>
 				</li>
 				<li><?php the_title(); ?></li>
 			</ol>

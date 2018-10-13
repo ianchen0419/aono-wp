@@ -6,7 +6,7 @@
 		<div class="wrapper-size">
 			<ol class="contact-path">
 				<li>
-					<a href="index">ホーム</a>
+					<a href="<?php bloginfo('url') ?>">ホーム</a>
 				</li>
 				<li>お知らせ一覧</li>
 			</ol>

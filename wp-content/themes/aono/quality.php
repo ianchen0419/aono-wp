@@ -14,7 +14,7 @@
 		<div class="wrapper-size">
 			<ol class="contact-path">
 				<li>
-					<a href="index">ホーム</a>
+					<a href="<?php bloginfo('url') ?>">ホーム</a>
 				</li>
 				<li>
 					<a href="process">生産・品質</a>

@@ -4,9 +4,9 @@
 	if(isset($_POST['code'])) {  
 		if($_POST['code'] == $_SESSION['code']){
 		        // データは再送信されようとします
-				header ( 'Location: index');
-				return;
-		    }
+			header ('Location: http://workcapital.sakura.ne.jp/aono');
+			return;
+		}
 	}
 
 ?>
@@ -28,7 +28,7 @@
 	<div class="wrapper-size">
 			<ol class="contact-path">
 				<li>
-					<a href="index">ホーム</a>
+					<a href="<?php bloginfo('url') ?>">ホーム</a>
 				</li>
 				<li>お問い合わせ</li>
 			</ol>	
@@ -134,7 +134,7 @@
 				<input name="code" type="hidden" value="<?php echo rand(10000,100000000000); ?>" />  
 				
 				<div class="btn-box">
-					<input type="submit" name="your_submit" value="送信"  />
+					<input type="submit" name="your_submit" value="送信" />
 				</div>
 
 			</form>
@@ -167,7 +167,7 @@
 
 					$message = htmlspecialchars($_POST['your_message']);
 
-					$to = 'inquiry.workcapital@gmail.com'; 
+					$to = array ('yoshiki@aono-eng.co.jp', 'orimo@aono-eng.co.jp');
 					$subject = 'お問い合わせがございます'; 
 					$content = 
 					'【貴社名】'.$company."\n".

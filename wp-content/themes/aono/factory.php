@@ -14,7 +14,7 @@
 		<div class="wrapper-size">
 			<ol class="contact-path">
 				<li>
-					<a href="index">ホーム</a>
+					<a href="<?php bloginfo('url') ?>">ホーム</a>
 				</li>
 				<li>
 					<a href="process">生産・品質</a>
@@ -31,26 +31,43 @@
 				最新鋭の電動式成形機、取り出しロボットを備え24時間体制でお客様の要望に対応しています。
 			</article>
 
-			<ul class="factory-image-list"> 
-				<li>
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/IMG_7159.jpg" alt="生産工場" width="300" height="225" />
+			<h2 class="factory-title">本社工場</h2>
+			<ul class="factory-image-list">
+				<li data-index="0">
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_1_view.jpg" alt="生産工場" width="300" height="225" />
 				</li>
-				<li>
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/IMG_7147.jpg" alt="生産工場" width="300" height="225" />
+				<li data-index="1">
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_2_view.jpg" alt="生産工場" width="300" height="225" />
 				</li>
-				<li>
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/IMG_7168.jpg" alt="生産工場" width="300" height="225" />
-				</li>
-				<li>
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/IMG_7149.jpg" alt="生産工場" width="300" height="225" />
-				</li>
-				<li>
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/IMG_7150.jpg" alt="生産工場" width="300" height="225" />
-				</li>
-				<li>
-					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/IMG_7165.jpg" alt="生産工場" width="300" height="225" />
+				<li data-index="2">
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_3_view.jpg" alt="生産工場" width="300" height="225" />
 				</li>
 			</ul>
+
+			<h2 class="factory-title mar_top50">茨城工場</h2>
+
+			<ul class="factory-image-list delay">
+				<li data-index="3">
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_4_view.jpg" alt="生産工場" width="300" height="225" />
+				</li>
+				<li data-index="4">
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_5_view.jpg" alt="生産工場" width="300" height="225" />
+				</li>
+				<li data-index="5">
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_6_view.jpg" alt="生産工場" width="300" height="225" />
+				</li>
+				<li data-index="6">
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_7_view.jpg" alt="生産工場" width="300" height="225" />
+				</li>
+				<li data-index="7">
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_8_view.jpg" alt="生産工場" width="300" height="225" />
+				</li>
+				<li data-index="8">
+					<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_9_view.jpg" alt="生産工場" width="300" height="225" />
+				</li>
+			</ul>
+
+			
 
 			<h2 class="title-2">
 				<span>生産設備概要</span>
@@ -565,6 +582,84 @@
 					</tr>
 				</tbody>
 			</table>
+
+			<div id="imageGallery">
+				<div class="image-header">
+					<div class="image-index"> 
+						<span id="counterIndex">1</span>
+						<span>/ 9</span>
+					</div>
+					<div class="image-toolbar">
+						<a href="javascript:;">
+							<i class="fa fa-times" id="close_btn"></i>
+						</a>
+					</div>
+				</div>
+				<div id="factoryGalleryWrapper">
+					<div class="image-item">
+						<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_1.jpg" alt="本社工場" />
+						<div class="image-footer">
+							<span>本社工場</span>
+						</div>
+					</div>
+					<div class="image-item">
+						<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_2.jpg" alt="本社工場" />
+						<div class="image-footer">
+							<span>本社工場</span>
+						</div>
+					</div>
+					<div class="image-item">
+						<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_3.jpg" alt="本社工場" />
+						<div class="image-footer">
+							<span>本社工場</span>
+						</div>
+					</div>
+					<div class="image-item">
+						<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_4.jpg" alt="茨城工場" />
+						<div class="image-footer">
+							<span>茨城工場</span>
+						</div>
+					</div>
+					<div class="image-item">
+						<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_5.jpg" alt="茨城工場" />
+						<div class="image-footer">
+							<span>茨城工場</span>
+						</div>
+					</div>
+					<div class="image-item">
+						<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_6.jpg" alt="茨城工場" />
+						<div class="image-footer">
+							<span>茨城工場</span>
+						</div>
+					</div>
+					<div class="image-item">
+						<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_7.jpg" alt="茨城工場" />
+						<div class="image-footer">
+							<span>茨城工場</span>
+						</div>
+					</div>
+					<div class="image-item">
+						<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_8.jpg" alt="茨城工場" />
+						<div class="image-footer">
+							<span>茨城工場</span>
+						</div>
+					</div>
+					<div class="image-item">
+						<img src="<?php bloginfo('template_directory') ?>/inc/img/factory/factory_9.jpg" alt="茨城工場" />
+						<div class="image-footer">
+							<span>茨城工場</span>
+						</div>
+					</div>
+				</div>
+				<div class="image-arrow">
+					<button id="img_prev">
+						<i class="fa fa-arrow-left"></i>
+					</button>
+					<button id="img_next">
+						<i class="fa fa-arrow-right"></i>
+					</button>
+				</div>
+			</div>
 
 		</div>
 	</div>

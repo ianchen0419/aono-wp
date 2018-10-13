@@ -320,7 +320,7 @@ $textBlack: #444444
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	min-height: calc(100vh - 396px);
+	min-height: calc(100vh - 390px);
 }
 
 .title-1 {
@@ -427,6 +427,10 @@ $textBlack: #444444
 .news-item .news-title {
 	display: inline-block;
 	margin-left: 40px;
+}
+
+.center-text {
+	text-align: center;
 }
 
 .right-text,.single-news-date {
@@ -648,8 +652,20 @@ body.showing {
 	display: inline-block;
 	position: relative;
 	font-size: 0;
-	margin: 0 5px;
-	width: 300px;
+	margin: 10px;
+	width: 440px;
+	vertical-align: top;
+}
+
+.product-image-list p.image-info {
+	font-size: 10pt;
+    	margin-top: 5px;
+    	color: #777;
+}
+
+.product-image-list p.image-title {
+	margin-bottom: 5px;
+    	font-size: 13pt;
 }
 
 .image-list-item {
@@ -657,13 +673,13 @@ body.showing {
 	font-size: 0;
 }
 
-.image-list-item:before {
+.image-list-item:before, .factory-image-list li:before {
 	content: "\f002";
 	font-family: FontAwesome;
 	color: #fff;
 	font-size: 24px;
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 45%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -675,22 +691,22 @@ body.showing {
 	width: 26px;
 	height: 26px;
 }
-.image-list-item:after {
+.image-list-item:after, .factory-image-list li:after {
 	content: "";
 	width: 100%;
-	height: 200.66px;
+	height: 293px;
 	background-color: rgba(0, 0, 0, 0.5);
 	position: absolute;
-	top: 0;
+	top: 49px;
 	left: 0;
 	opacity: 0;
 	transition-duration: 0.5s;
 	z-index: 1;
 }
-.image-list-item:hover:before {
+.image-list-item:hover:before, .factory-image-list li:hover:before {
 	opacity: 1;
 }
-.image-list-item:hover:after {
+.image-list-item:hover:after, .factory-image-list li:hover:after {
 	opacity: 1;
 }
 
@@ -730,9 +746,15 @@ body.showing {
 }
 
 #imageGalleryWrapper {
-	width: 1800vw;
+	width: 2500vw;
 	font-size: 0;
-	transition-duration: 0.5s;
+	transition-duration: 0.3s;
+}
+
+#factoryGalleryWrapper{
+	width: 900vw;
+	font-size: 0;
+	transition-duration: 0.3s;
 }
 
 #imageGallery img {
@@ -814,13 +836,16 @@ body.showing {
 }
 
 .image-footer span {
-	font-size: 11pt;
+	font-size: 13pt;
 }
 
 
 .image-footer small {
 	font-weight: 200;
-	font-size: 11pt;
+	font-size: 9pt;
+	color: #ddd;
+	height: 33px;
+    	display: block;
 }
 
 /*step title*/
@@ -872,8 +897,24 @@ body.showing {
 	top: -8px;
 }
 
+.factory-title {
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+.mar_top50 {
+	margin-top: 50px;
+}
+
 .factory-image-list {
 	animation: show 3s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.factory-image-list.delay {
+	animation: show 0.5s;
+	animation-delay: 1s;
 	animation-fill-mode: forwards;
 	opacity: 0;
 }
@@ -882,6 +923,18 @@ body.showing {
 	list-style: none;
 	display: inline-block;
 	margin: 10px 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+.factory-image-list li:before {
+
+}
+
+.factory-image-list li:after {
+	height: 100%;
+	top: 0;
+
 }
 
 .factory-table {
@@ -939,6 +992,23 @@ body.showing {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.message-text {
+	display: inline-block;
+	width: 65%;
+	vertical-align: top;
+	padding-right: 25px;
+}
+
+.message-photo {
+	display: inline-block;
+	width: 32%;
+	vertical-align: top;
+}
+
+.message-photo img {
+	width: 100%;
 }
 
 .profile-table,.message-table,.recruit-table {
@@ -1753,11 +1823,21 @@ ul.sitemap-detail-list {
 
 	.product-image-list li {
 		width: 95%;
-		margin: 0;
+		margin: 10px 0;
 	}
 
-	.image-list-item:after {
-		height: calc(100% - 52px);
+	.product-image-list p.image-info {
+		font-size: 7pt;
+	}
+
+	.image-list-item:before,.factory-image-list li:before {
+		/*top: 47%;*/
+		display: none;
+	}
+
+	.image-list-item:after,.factory-image-list li:after {
+		display: none;
+		/*height: calc(100% - 120px);*/
 	}
 	#imageGallery img {
 		width: 100%;
@@ -1769,6 +1849,14 @@ ul.sitemap-detail-list {
 
 	#full_btn,#dl_btn,.image-arrow {
 		display: none;
+	}
+
+	.image-footer small {
+		font-size: 7pt;
+	}
+
+	.image-footer {
+		bottom: 60px;
 	}
 
 	.image-index {
@@ -1798,6 +1886,14 @@ ul.sitemap-detail-list {
 		margin-top: 0;
 	}
 
+	.message-text,.message-photo {
+		width: 100%;
+		padding: 0;
+	}
+	
+	.message-photo {
+		margin-top: 40px;
+	}
 
 
 }

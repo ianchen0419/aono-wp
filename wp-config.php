@@ -26,16 +26,16 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define('DB_NAME', 'workcapital_aono');
+define('DB_NAME', 'aono');
 
 /** MySQL データベースのユーザー名 */
-define('DB_USER', 'workcapital');
+define('DB_USER', 'aono');
 
 /** MySQL データベースのパスワード */
-define('DB_PASSWORD', 'aono-123');
+define('DB_PASSWORD', 'aono');
 
 /** MySQL のホスト名 */
-define('DB_HOST', 'mysql720.db.sakura.ne.jp');
+define('DB_HOST', 'localhost');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8mb4');
@@ -82,6 +82,14 @@ $table_prefix  = 'wp_';
  * @link http://wpdocs.osdn.jp/WordPress%E3%81%A7%E3%81%AE%E3%83%87%E3%83%90%E3%83%83%E3%82%B0
  */
 define('WP_DEBUG', false);
+/* Multisite */
+define('WP_ALLOW_MULTISITE', true);
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'localhost');
+define('PATH_CURRENT_SITE', '/aono/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 /* 編集が必要なのはここまでです ! WordPress でブログをお楽しみください。 */
 
@@ -91,4 +99,7 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+
 

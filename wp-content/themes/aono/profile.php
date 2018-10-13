@@ -7,23 +7,23 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/profile/profile.png" alt="会社案内" width="100%" /> 
 		</picture>
 		<div class="visual-title-area">
-			<h1>会社案内</h1>
+			<h1>会社概要</h1>
 		</div>
 	</div>
 	<div id="contact">
 		<div class="wrapper-size">
 			<ol class="contact-path">
 				<li>
-					<a href="index">ホーム</a>
+					<a href="<?php bloginfo('url') ?>">ホーム</a>
 				</li>
 				<li>
 					<a href="profile">会社案内</a>
 				</li>
-				<li>会社案内</li>
+				<li>会社概要</li>
 			</ol>	
 			
 			<h2 class="title-2">
-				<span>会社概要</span>
+				<span>企業情報</span>
 			</h2>
 
 			<table class="profile-table" width="90%">

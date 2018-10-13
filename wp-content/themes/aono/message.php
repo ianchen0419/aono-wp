@@ -7,35 +7,39 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/message/message.png" alt="経営理念" width="100%" /> 
 		</picture>
 		<div class="visual-title-area">
-			<h1>経営理念<br>沿革</h1>
+			<h1>経営方針<br>沿革</h1>
 		</div>
 	</div>
 	<div id="contact">
 		<div class="wrapper-size">
 			<ol class="contact-path">
 				<li>
-					<a href="index">ホーム</a>
+					<a href="<?php bloginfo('url') ?>">ホーム</a>
 				</li>
 				<li>
 					<a href="profile">会社案内</a>
 				</li>
-				<li>経営理念</li>
+				<li>経営方針</li>
 			</ol>	
 			
 			<h2 class="title-2">
 				<span>経営方針</span>
 			</h2>
 
-			<article class="left-article">
+			<div class="message-text">
 				当社は1971年の創業以来、情報通信機器、OA機器、精密工業用部品、バッテリーパック部品の分野でプラスチック成形の専門メーカーとして、金型製作、成形から塗装、メッキ、シルク印刷、組立等一貫した物作りが出来る事でお客様のニーズに合わせた企業として成長して参りました。<br>
 				当社の経営理念である「お客様に喜ばれるモノづくり」は、図面からお客様の意図を読み取り、それ以上の付加価値が付けられるかということを日々考え、実践しております。<br>
 				お客様の安心と喜びを、私達全社員の喜びとしてモノづくりをすることで、大変有り難いことにお客様からも高い評価を頂いております。<br>
 				また、当社社員も仲間同士お互いを喜ばせる仕事をし、全員一致団結して日々業務を行っております。<br>
-				将来を見据えた世代交代により、当社も若手社員に技術承継が行われることで、未来ある企業へと益々成長していきたいと考えております。<br>
+				将来を見据えた世代交代により、当社も若手社員に技術承継が行われることで、未来ある強い企業へと益々成長していきたいと考えております。<br>
 				今後とも、ご支援を賜りますようお願い申し上げます。
-			</article>
+			</div>
+			<div class="message-photo">
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/message/aono_ceo.png" alt="代表取締役 青野義樹" />
+				<p class="center-text">代表取締役 青野義樹</p>
+			</div>
 
-			<p class="right-text">代表取締役 青野義樹</p>
+			
 
 			<h2 class="title-2">
 				<span>沿革</span>
@@ -43,8 +47,12 @@
 
 			<table class="message-table">
 				<tr>
-					<th width="20%">2017年11月</th>
-					<td width="80%">ISO 9001:2015改定</td>
+					<th width="20%">2018年7月</th>
+					<td width="80%">ISO9001:2015 ISO14001:2015<br>ASR(株)承認―認証サービス部様による定期審査実施</td>
+				</tr>
+				<tr>
+					<th>2017年11月</th>
+					<td>ISO 9001:2015改定</td>
 				</tr>
 				<tr>
 					<th>2017年9月</th>

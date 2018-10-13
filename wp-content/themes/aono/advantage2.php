@@ -7,64 +7,69 @@
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/advantage2/advantage2.png" alt="特色2" width="100%" /> 
 		</picture>
 		<div class="visual-title-area">
-			<h1>[ 特色 ]<br>金型、安価材料の提案<br>勉強会の開催</h1>
+			<h1><?php echo (get_current_blog_id()==1)?'[ 特色 ]<br />金型、安価材料の提案<br>勉強会の開催':'[Feature]<br />Proposal of mold and inexpensive material Holding a study group' ?></h1>
 		</div>
 	</div>
 	<div id="contact">
 		<div class="wrapper-size">
 			<ol class="contact-path">
 				<li>
-					<a href="index">ホーム</a>
+					<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 				</li>
 				<li>
-					<a href="advantage1">特色</a>
+					<a href="advantage1"><?php echo (get_current_blog_id()==1)?'特色':'Advantage' ?></a>
 				</li>
-				<li>特色2 金型、安価材料の提案によるコスト削減、勉強会の開催</li>
+				<li><?php echo (get_current_blog_id()==1)?'特色2 金型、安価材料の提案によるコスト削減、勉強会の開催':'Feature 2) Cost reduction by proposing molding and inexpensive material' ?></li>
 			</ol>	
 
-			<h1 class="title-1">金型費を削減</h1>
+			<h1 class="title-1"><?php echo (get_current_blog_id()==1)?'金型費を削減':'Reduction of mold cost' ?></h1>
 
 			<article class="left-article">
-				取り数が最小限となり、金型変更・改造に対し、低コストでの対応が可能となります。<br>
-				それにより、量産金型を起型の際には、取り数の多い量産金型での変更が削減され、試作型での問題点も反映されることで、量産金型コストが削減できます。
-			</article>
+			<?php echo (get_current_blog_id()==1)?
+			'取り数が最小限となり、金型変更・改造に対し、低コストでの対応が可能となります。<br />
+			それにより、量産金型を起型の際には、取り数の多い量産金型での変更が削減され、試作型での問題点も反映されることで、量産金型コストが削減できます。':
+			'Minimizing the number of items to be taken, it is possible to respond to mold change / remodeling at low cost.<br />
+			Our clients are able to reduce the cost for mold mass production.' ?></article>
 
 			<p>
-				<strong>（試作・量産）カセット型</strong>
+				<strong><?php echo (get_current_blog_id()==1)?'（試作・量産）カセット型':'(Prototype / mass production) cassette type' ?></strong>
 				<br />
-				<span>モールドベースは固定されており、中駒のみを製作するためコスト削減に繋がります。</span>
+				<span><?php echo (get_current_blog_id()==1)?'モールドベースは固定されており、中駒のみを製作するためコスト削減に繋がります。':'The mold base is fixed and it costs less to manufacture only the middle frame.' ?></span>
 			</p>
 
 			<p>
-				<strong>（量産）異形状多数個取り型</strong>
+				<strong><?php echo (get_current_blog_id()==1)?'（量産）異形状多数個取り型':'(Mass production) Heterogeneous shape multiple mold type' ?></strong>
 				<br />
-				<span>4種類の形状が異なる製品を同時成形します。</span>
+				<span><?php echo (get_current_blog_id()==1)?'4種類の形状が異なる製品を同時成形します。':'Simultaneously form products of 4 different shapes.' ?></span>
 			</p>
 
-			<h1 class="title-1">勉強会 / 工場見学会</h1>
+			<h1 class="title-1"><?php echo (get_current_blog_id()==1)?'勉強会 / 工場見学会':'Study group / Factory tour' ?></h1>
 
-			<article class="left-article">
-				成形はもちろんのこと、成形加工に欠かせない金型含めて、二次加工の「塗装加工」「印刷加工」等の、工場見学をその道の匠からレクチャーを受ける勉強会を開催しています。<br>
-				参加無料ですので、お気軽にお問い合わせください。お問い合わせは
-				<a href="contact.html">こちら</a>
-				。  
+			<article class="left-article"><?php echo (get_current_blog_id()==1)?
+			'成形はもちろんのこと、成形加工に欠かせない金型含めて、二次加工の「塗装加工」「印刷加工」等の、工場見学をその道の匠からレクチャーを受ける勉強会を開催しています。<br />
+			参加無料ですので、お気軽にお問い合わせください。お問い合わせは':
+			'We hold a study group to receive lectures from craftsmen at factories such as "painting processing", "printing processing" and etc. of secondary processing.<br />
+			Because it is free of charge, please feel free to' ?>
+				<a href="contact"><?php echo (get_current_blog_id()==1)?'こちら':'contact us' ?></a>
+				<?php echo (get_current_blog_id()==1)?'。':'.' ?>
+				
 			</article>
 
 
 			<h2 class="title-2">
-				<span>金型メーカーでの工場見学と金型に関する基礎を受講</span>
+				<span><?php echo (get_current_blog_id()==1)?'金型メーカーでの工場見学と金型に関する基礎を受講':'Attend factory tour and take lectures on basic knowledge about molding.' ?></span>
 			</h2>
 
-			<ol class="bold-list">
-				<li>金型の製作過程を説明</li>
-				<li>製作の3Dモデルからの、金型の型構造の検討内容を説明</li>
+			<ol>
+				<li><?php echo (get_current_blog_id()==1)?'金型の製作過程を説明':'Explain the manufacturing process of the mold' ?></li>
+				<li><?php echo (get_current_blog_id()==1)?'製作の3Dモデルからの、金型の型構造の検討内容を説明':'Explain the examination of mold structure from the 3D model of production.' ?></li>
 				<li>
-					<p>型構造に関する説明</p>
-					<p class="fw-normal">例）パーティングの設定、スライド型の構造、傾斜ピンの機構説明、インジャクターピンの設置位置</p>
+					<p><?php echo (get_current_blog_id()==1)?'型構造に関する説明':'Explain the mold structure' ?></p>
+					<p class="fw-normal"><?php echo (get_current_blog_id()==1)?'例）パーティングの設定、スライド型の構造、傾斜ピンの機構説明、インジャクターピンの設置位置':'Example) Setting of parting, structure of slide, explanation of mechanism of inclined pin and setting position of inductor pin' ?></p>
 				</li>
 				<li>
-					<p>現場にて工場見学</p>
-					<p class="fw-normal">金型製作工程毎の加工機の見学と説明</p>
+					<p><?php echo (get_current_blog_id()==1)?'現場にて工場見学':'Factory tour' ?></p>
+					<p class="fw-normal"><?php echo (get_current_blog_id()==1)?'金型製作工程毎の加工機の見学と説明':'Take the explanation of processing machine for each mold manufacturing process.' ?></p>
 				</li>
 			</ol>
 
@@ -74,18 +79,18 @@
 			</div>
 
 			<h2 class="title-2">
-				<span>二次加工メーカーでの工場見学と金型に関する基礎を受講</span>
+				<span><?php echo (get_current_blog_id()==1)?'二次加工メーカーでの工場見学と金型に関する基礎を受講':'Attend factory tours at the secondary processing maker and take lectures about the foundation on molds.' ?></span>
 			</h2>
 
-			<ol class="bold-list">
-				<li>製作過程を説明</li>
+			<ol>
+				<li><?php echo (get_current_blog_id()==1)?'製作過程を説明':'Explain the production process.' ?></li>
 				<li>
-					<p>型構造に関する説明</p>
-					<p class="fw-normal">例）印刷加工、シルク印刷、パッド印刷、ホットスタンプ加工</p>
+					<p><?php echo (get_current_blog_id()==1)?'型構造に関する説明':'Explain the mold structure' ?></p>
+					<p class="fw-normal"><?php echo (get_current_blog_id()==1)?'例）印刷加工、シルク印刷、パッド印刷、ホットスタンプ加工':'Example) Print processing, silk printing, pad printing, hot stamp processing' ?></p>
 				</li>
 				<li>
-					<p>現場にて工場見学</p>
-					<p class="fw-normal">金型製作工程毎の加工機の見学と説明</p>
+					<p><?php echo (get_current_blog_id()==1)?'現場にて工場見学':'Factory tour' ?></p>
+					<p class="fw-normal"><?php echo (get_current_blog_id()==1)?'金型製作工程毎の加工機の見学と説明':'Take the explanation of processing machine for each mold manufacturing process.' ?></p>
 				</li>
 			</ol>
 
@@ -95,28 +100,28 @@
 			</div>
 
 			<h2 class="title-2">
-				<span>成形工場（弊社）見学と成形に関する基礎を受講</span>
+				<span><?php echo (get_current_blog_id()==1)?'成形工場（弊社）見学と成形に関する基礎を受講':'Join the tour at our molding factory and learn the basics about basics of molding' ?></span>
 			</h2>
 
-			<ol class="bold-list">
-				<li>成形工程に関するレクチャー</li>
-				<li>ゲート方式、樹脂に関するレクチャー</li>
+			<ol>
+				<li><?php echo (get_current_blog_id()==1)?'成形工程に関するレクチャー':'Lecture on molding process' ?></li>
+				<li><?php echo (get_current_blog_id()==1)?'ゲート方式、樹脂に関するレクチャー':'Lecture on gating method and resin' ?></li>
 				<li>
-					<p>現場にて工場見学</p>
+					<p><?php echo (get_current_blog_id()==1)?'現場にて工場見学':'Factory tour' ?></p>
 					<p class="fw-normal">
-						<span>実際の生産工程を確認</span>
+						<span><?php echo (get_current_blog_id()==1)?'実際の生産工程を確認':'Confirm actual production process.' ?></span>
 						<ul>
-							<li>成形機の見学と説明</li>
-							<li>検査ラインの見学</li>
-							<li>付帯設備（測定器等）の見学</li>
+							<li><?php echo (get_current_blog_id()==1)?'成形機の見学と説明':'Get the explanation about the molding machine.' ?></li>
+							<li><?php echo (get_current_blog_id()==1)?'検査ラインの見学':'Learn about inspection line.' ?></li>
+							<li><?php echo (get_current_blog_id()==1)?'付帯設備（測定器等）の見学':'Tour of incidental facilities (measuring instruments etc.)' ?></li>
 						</ul>
 					</p>
 				</li>
 				<li>
-					<p>二次加工の見学</p>
+					<p><?php echo (get_current_blog_id()==1)?'二次加工の見学':'Tour of secondary processing' ?></p>
 					<p class="fw-normal">
 						<ul>
-							<li>ASSY工程の見学</li>
+							<li><?php echo (get_current_blog_id()==1)?'ASSY工程の見学':'Tour of the ASSY process' ?></li>
 						</ul>
 					</p>
 				</li>
