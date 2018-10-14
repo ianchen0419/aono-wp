@@ -7,7 +7,7 @@
 				<li>
 					<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 				</li>
-				<li>サイトマップ</li>
+				<li><?php echo (get_current_blog_id()==1)?'サイトマップ':'Sitemap' ?></li>
 			</ol>
 
 			<h1 class="block-title"><?php echo (get_current_blog_id()==1)?'サイトマップ':'Sitemap' ?></h1>

@@ -1461,12 +1461,11 @@ ul.sitemap-detail-list {
 		padding-top: 10px;
 	}
 
-	.mobile-anchor-area {
-		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
+	.mobile-anchor-item {
+		display: inline-block;
+		margin: 0 20px;
 	}
-
+	
 	.mobile-anchor-item, .mobile-anchor-item i {
 		color: #ff5d55;
 	}
@@ -1721,7 +1720,7 @@ ul.sitemap-detail-list {
 
 	.ios-item {
 		text-align: left;
-		margin: 20px 30px;
+		margin: 20px 10px;
 		width: 100%;
 	}
 
@@ -1898,6 +1897,16 @@ ul.sitemap-detail-list {
 	.message-photo {
 		margin-top: 40px;
 	}
+
+	.profile-table th, .profile-table td, .message-table th, .message-table td {
+		font-size: 8pt;
+		padding: 5px 2px;
+	}
+
+	.profile-table, .message-table {
+		border-spacing: 10px;
+	}
+	
 
 
 }
