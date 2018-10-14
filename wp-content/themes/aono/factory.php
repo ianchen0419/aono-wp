@@ -26,7 +26,7 @@
 				<span><?php echo (get_current_blog_id()==1)?'生産工場のご紹介':'Introduction of factory' ?></span>
 			</h2>
 
-			<article class="center-article m-left-article">"<?php echo (get_current_blog_id()==1)?'理想的な生産環境に万全の安全管理、茨城最新鋭生産ロボット基地。<br />最新鋭の電動式成形機、取り出しロボットを備え24時間体制でお客様の要望に対応しています。':'We have thorough safety management in an ideal production environment.<br />We are equipped with state-of-the-art electric molding machines and take-out robots to meet customers\' requests on a 24-hour basis.' ?>"</article>
+			<article class="center-article m-left-article"><?php echo (get_current_blog_id()==1)?'理想的な生産環境に万全の安全管理、茨城最新鋭生産ロボット基地。<br />最新鋭の電動式成形機、取り出しロボットを備え24時間体制でお客様の要望に対応しています。':'We have thorough safety management in an ideal production environment.<br />We are equipped with state-of-the-art electric molding machines and take-out robots to meet customers\' requests on a 24-hour basis.' ?></article>
 
 			<h2 class="factory-title"><?php echo (get_current_blog_id()==1)?'本社工場':'Head factory' ?></h2>
 			<ul class="factory-image-list">
@@ -271,14 +271,14 @@
 						<td></td>
 						<td>12<?php echo (get_current_blog_id()==1)?'台':'' ?></td>
 						<td>12<?php echo (get_current_blog_id()==1)?'台':'' ?></td>
-						<td>ユーシン</td>
+						<td><?php echo (get_current_blog_id()==1)?'ユーシン':'U-Shin' ?></td>
 					</tr>
 					<tr>
 						<td>YAx-70DL</td>
 						<td></td>
 						<td>6<?php echo (get_current_blog_id()==1)?'台':'' ?></td>
 						<td>6<?php echo (get_current_blog_id()==1)?'台':'' ?></td>
-						<td>ユーシン</td>
+						<td><?php echo (get_current_blog_id()==1)?'ユーシン':'U-Shin' ?></td>
 					</tr>
 					<tr>
 						<td>GXW-1200SVI</td>
@@ -507,7 +507,7 @@
 					</tr>
 					<tr>
 						<td class="center"><?php echo (get_current_blog_id()==1)?'CNC三次元測定器':'CNC 3D measuring instrument' ?></td>
-						<td><?php echo (get_current_blog_id()==1)?'BRT-504 Sシステム':'BRT-504 Sシステム' ?></td>
+						<td><?php echo (get_current_blog_id()==1)?'BRT-504 Sシステム':'BRT-504 S System' ?></td>
 						<td></td>
 						<td>1<?php echo (get_current_blog_id()==1)?'台':'' ?></td>
 						<td>1<?php echo (get_current_blog_id()==1)?'台':'' ?></td>

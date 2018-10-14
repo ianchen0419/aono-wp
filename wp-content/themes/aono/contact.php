@@ -3,7 +3,7 @@
 <?php session_start(); 
 	if(isset($_POST['code'])) {  
 		if($_POST['code'] == $_SESSION['code']){
-		        // データは再送信されようとします
+		    // データは再送信されようとします
 			header ('Location: http://workcapital.sakura.ne.jp/aono');
 			return;
 		}
@@ -71,7 +71,7 @@
 							<span class="badge">必須</span>
 						</th>
 						<td>
-							<input type="text" name="your_furigana" required />
+							<input type="text" name="your_furigana" <?php echo (get_current_blog_id()==1)?'required':'' ?> />
 						</td>
 					</tr>
 					<tr>
@@ -177,6 +177,7 @@
 					'【電話番号】'.$phone."\n".
 					'【お問い合わせ種類】'.$type."\n".
 					'【お問い合わせ内容】'."\n".$message."\n";
+
 
 
 					if(wp_mail($to, $subject, $content)) {

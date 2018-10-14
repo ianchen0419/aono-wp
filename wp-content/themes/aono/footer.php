@@ -3,7 +3,7 @@
 		<div class="sitemap-area">
 			<ul class="sitemap-block">
 				<li>
-					<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'ホーム' ?></a>
+					<a href="<?php bloginfo('url') ?>"><?php echo (get_current_blog_id()==1)?'ホーム':'Home' ?></a>
 				</li>
 				<li><?php echo (get_current_blog_id()==1)?'特色':'Feature' ?></</li>
 				<li class="child-list">

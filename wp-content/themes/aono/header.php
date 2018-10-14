@@ -1,12 +1,5 @@
 <?php 
 	session_start(); 
-	$_SESSION['langFlag']='ja';
-	if(strstr(get_permalink(), 'en')!==false){
-		$_SESSION['langFlag']='en';
-	}else{
-		$_SESSION['langFlag']='ja';
-	}
-
 	// get_current_blog_id()==1 日本語
 	// get_current_blog_id()==2 英語
 
