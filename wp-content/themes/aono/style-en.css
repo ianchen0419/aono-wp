@@ -346,7 +346,7 @@ $textBlack: #444444
 }
 
 .center-article {
-	text-align: center;
+	text-align: left;
 }
 
 .left-article {
@@ -363,8 +363,6 @@ $textBlack: #444444
 	display: flex;
 	justify-content: space-around;
 }
-
-
 
 .advantage-image-item {
 	width: 300px;
@@ -602,7 +600,7 @@ body.showing {
 
 .advantage-title {
 	font-size: 23pt;
-	text-align: center;
+	text-align: left;
 	margin: 40px 0;
 }
 

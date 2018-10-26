@@ -70,7 +70,7 @@
 					<div class="image-list-item" data-index="5">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/aono_b_6_view.jpg" alt="携帯電話" />
 					</div>
-					<p class="image-info"><?php echo (get_current_blog_id()==1)?'メカ部品 ASSY部品':'Mechanical parts / ASSY parts' ?></p>
+					<p class="image-info"><?php echo (get_current_blog_id()==1)?'精密メカ部品　ASSY部品':'Mechanical parts / ASSY parts' ?></p>
 				</li>
 				<li>
 
@@ -78,7 +78,7 @@
 					<div class="image-list-item" data-index="6">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/aono_b_7_view.jpg" alt="携帯電話" />
 					</div>
-					<p class="image-info"><?php echo (get_current_blog_id()==1)?'メカ部品':'Mechanical parts' ?></p>
+					<p class="image-info"><?php echo (get_current_blog_id()==1)?'精密メカ部品':'Mechanical parts' ?></p>
 				</li>
 				<li>
 
@@ -205,7 +205,7 @@
 					<div class="image-list-item" data-index="21">
 						<img src="<?php bloginfo('template_directory') ?>/inc/img/product/product_4_view.jpg" alt="電流計部品" />
 					</div>
-					<p class="image-info"><?php echo (get_current_blog_id()==1)?'※エラストマ インサート成形':'*Elastomer insert molding' ?></p>
+					<p class="image-info"><?php echo (get_current_blog_id()==1)?'※防水用エラストマーインサート成形':'*Elastomer insert molding' ?></p>
 				</li>
 				<li>
 					<p class="image-title"><?php echo (get_current_blog_id()==1)?'カメラ用部品':'Camera parts' ?></p>
@@ -294,7 +294,7 @@
 						<div class="image-footer">
 							<span><?php echo (get_current_blog_id()==1)?'携帯電話':'Cell phone' ?></span>
 							<br />
-							<small><?php echo (get_current_blog_id()==1)?'メカ部品 ASSY部品':'Mechanical parts / ASSY parts' ?></small>
+							<small><?php echo (get_current_blog_id()==1)?'精密メカ部品　ASSY部品':'Mechanical parts / ASSY parts' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
@@ -302,7 +302,7 @@
 						<div class="image-footer">
 							<span><?php echo (get_current_blog_id()==1)?'携帯電話':'Cell phone' ?></span>
 							<br />
-							<small><?php echo (get_current_blog_id()==1)?'メカ部品':'Mechanical parts' ?></small>
+							<small><?php echo (get_current_blog_id()==1)?'精密メカ部品':'Mechanical parts' ?></small>
 						</div>
 					</div>
 					<div class="image-item">
@@ -422,7 +422,7 @@
 						<div class="image-footer">
 							<span><?php echo (get_current_blog_id()==1)?'電流計部品':'Ammeter parts' ?></span>
 							<br />
-							<small><?php echo (get_current_blog_id()==1)?'※エラストマ インサート成形':'*Elastomer insert molding' ?></small>
+							<small><?php echo (get_current_blog_id()==1)?'※防水用エラストマーインサート成形':'*Elastomer insert molding' ?></small>
 						</div>
 					</div>
 					<div class="image-item">

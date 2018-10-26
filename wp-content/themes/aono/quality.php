@@ -22,7 +22,7 @@
 				<li><?php echo (get_current_blog_id()==1)?'品質保証':'Quality assurance' ?></li>
 			</ol>	
 
-			<article class="left-article">"<?php echo (get_current_blog_id()==1)?'大手企業様への納品実績多数。<br />最新・高精度な計測器を用いて品質保証を行っています。<br />簡単な形状測定から複雑な形状測定など様々な評価方法で対応します。':'We have dealt with a lot of leading companies.<br />Quality assurance is carried out using latest and high precision measuring instruments.<br />We support it by various evaluation methods such as simple shape to complicated shape measurement.' ?>"</article>
+			<article class="left-article"><?php echo (get_current_blog_id()==1)?'大手企業様への納品実績多数。<br />最新・高精度な計測器を用いて品質保証を行っています。<br />簡単な形状測定から複雑な形状測定など様々な評価方法で対応します。':'We have dealt with a lot of leading companies. Quality assurance is carried out using latest and high precision measuring instruments. We support it by various evaluation methods such as simple shape to complicated shape measurement.' ?></article>
 
 			<h2 class="title-2">
 				<span><?php echo (get_current_blog_id()==1)?'主な計測機器':'Main measuring instruments' ?></span>

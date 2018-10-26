@@ -498,10 +498,17 @@
 						<td><?php echo (get_current_blog_id()==1)?'ニコン':'Nikon' ?></td>
 					</tr>
 					<tr>
-						<td class="center"><?php echo (get_current_blog_id()==1)?'CNC画像測定システムNEXIV':'CNC image measurement system NEXIV' ?></td>
+						<td class="center" rowspan="2"><?php echo (get_current_blog_id()==1)?'CNC画像測定システムNEXIV':'CNC image measurement system NEXIV' ?></td>
 						<td>VMR-3020</td>
 						<td>1<?php echo (get_current_blog_id()==1)?'台':'' ?></td>
 						<td></td>
+						<td>1<?php echo (get_current_blog_id()==1)?'台':'' ?></td>
+						<td><?php echo (get_current_blog_id()==1)?'ニコン':'Nikon' ?></td>
+					</tr>
+					<tr>
+						<td>VMR-6555</td>
+						<td></td>
+						<td>1<?php echo (get_current_blog_id()==1)?'台':'' ?></td>
 						<td>1<?php echo (get_current_blog_id()==1)?'台':'' ?></td>
 						<td><?php echo (get_current_blog_id()==1)?'ニコン':'Nikon' ?></td>
 					</tr>

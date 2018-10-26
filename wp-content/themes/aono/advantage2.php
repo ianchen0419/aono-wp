@@ -50,7 +50,7 @@
 			参加無料ですので、お気軽にお問い合わせください。お問い合わせは':
 			'We hold a study group to receive lectures from craftsmen at factories such as "painting processing", "printing processing" and etc. of secondary processing.<br />
 			Because it is free of charge, please feel free to' ?>
-				<a href="contact"><?php echo (get_current_blog_id()==1)?'こちら':'contact us' ?></a>
+				<a href="contact" class="txt-red"><?php echo (get_current_blog_id()==1)?'こちら':'contact us' ?></a>
 				<?php echo (get_current_blog_id()==1)?'。':'.' ?>
 				
 			</article>
@@ -65,7 +65,7 @@
 				<li><?php echo (get_current_blog_id()==1)?'製作の3Dモデルからの、金型の型構造の検討内容を説明':'Explain the examination of mold structure from the 3D model of production.' ?></li>
 				<li>
 					<p><?php echo (get_current_blog_id()==1)?'型構造に関する説明':'Explain the mold structure' ?></p>
-					<p class="fw-normal"><?php echo (get_current_blog_id()==1)?'例）パーティングの設定、スライド型の構造、傾斜ピンの機構説明、インジャクターピンの設置位置':'Example) Setting of parting, structure of slide, explanation of mechanism of inclined pin and setting position of inductor pin' ?></p>
+					<p class="fw-normal"><?php echo (get_current_blog_id()==1)?'例）パーティングの設定、スライド型の構造、傾斜ピンの機構説明、イジェクターピンの設置位置':'Example) Setting of parting, structure of slide, explanation of mechanism of inclined pin and setting position of inductor pin' ?></p>
 				</li>
 				<li>
 					<p><?php echo (get_current_blog_id()==1)?'現場にて工場見学':'Factory tour' ?></p>

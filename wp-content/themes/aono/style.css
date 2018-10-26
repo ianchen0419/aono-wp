@@ -353,6 +353,10 @@ $textBlack: #444444
 	margin: 40px 0;
 }
 
+.txt-red {
+	color: #c01018;
+}
+
 .advantage-image-wrapper, .gallery-image-wrapper {
 	text-align: center;
 	margin-top: 40px;
