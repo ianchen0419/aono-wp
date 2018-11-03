@@ -492,7 +492,7 @@ $textBlack: #444444
 
 /*motion*/
 
-body #motion img, body #motion h1 {
+body #motion img, body #motion .motion-text {
 	display: none;
 }
 
@@ -504,11 +504,25 @@ body.motion-body {
 	width: 100%;
 }
 
+body.motion-body #motion .motion-text {
+	display: inline-block;
+    	vertical-align: middle;
+}
+
 body.motion-body #motion h1 {
 	color: #fff;
-	display: inline-block;
+	display: block;
 	vertical-align: middle;
 	font-size: 23pt;
+	line-height: normal;
+	margin: 0;
+}
+
+body.motion-body #motion h2{
+	line-height: normal;
+	color: #fff;
+	font-size: 21pt;
+	margin: 0;
 }
 
 body.motion-body #motion img {
@@ -1269,8 +1283,12 @@ ul.sitemap-detail-list {
 	}
 
 	body.motion-body #motion h1 {
-		font-size: 11px;
 		display: none;
+	}
+
+	body.motion-body #motion h2 {
+		font-size: 14pt;
+		margin-top: 10px;
 	}
 
 	#header {

@@ -497,11 +497,17 @@ body.motion-body {
 	width: 100%;
 }
 
+body.motion-body #motion .motion-text {
+	display: inline-block;
+    	vertical-align: middle;
+}
+
 body.motion-body #motion h1 {
 	color: #fff;
-	display: inline-block;
+	display: block;
 	vertical-align: middle;
 	font-size: 23pt;
+	line-height: normal;
 }
 
 body.motion-body #motion img {

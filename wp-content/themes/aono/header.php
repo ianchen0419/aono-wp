@@ -2,6 +2,7 @@
 	session_start(); 
 	// get_current_blog_id()==1 日本語
 	// get_current_blog_id()==2 英語
+	// echo get_page_template();
 
 ?>
 
@@ -31,7 +32,11 @@
 		<!-- motion -->
 		<div id="motion">
 			<img src="<?php bloginfo('template_directory') ?>/inc/img/top/aono_logo_2.png" alt="青野工業" />
-			<h1>AONO INDUSTRIAL</h1>
+			<div class="motion-text">
+				<h1>AONO INDUSTRIAL</h1>
+				<h2 class="<?php echo (get_current_blog_id()==1)?'':'en-hide' ?>">株式会社青野工業</h2>
+			</div>
+			
 		</div>
 		<!-- header -->
 		<div id="header" style="display: none">
