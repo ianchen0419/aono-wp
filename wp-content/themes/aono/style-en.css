@@ -930,10 +930,6 @@ body.showing {
 	cursor: pointer;
 }
 
-.factory-image-list li:before {
-
-}
-
 .factory-image-list li:after {
 	height: 100%;
 	top: 0;
@@ -1002,6 +998,16 @@ body.showing {
 	width: 65%;
 	vertical-align: top;
 	padding-right: 25px;
+}
+
+.message-text-content {
+	margin-top: 0;
+}
+
+.message-text-ceo {
+	margin-bottom: 0;
+    	margin-top: 55px;
+    	text-align: right;
 }
 
 .message-photo {
@@ -1899,7 +1905,7 @@ ul.sitemap-detail-list {
 	}
 	
 	.message-photo {
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 
 	.profile-table th, .profile-table td, .message-table th, .message-table td {
@@ -1999,5 +2005,17 @@ ul.sitemap-detail-list {
 		transform: translateX(-80%);
 	}
 
+
+}
+
+@media print {
+	
+	body.showing, #header.showing, #menu.showing, #footer.showing, #visual.showing {
+		opacity: 1;
+	}
+
+	.slider-image {
+		height: 500px;
+	}
 
 }

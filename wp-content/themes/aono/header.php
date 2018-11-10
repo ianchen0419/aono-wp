@@ -17,7 +17,6 @@
 <link rel="icon" href="<?php bloginfo('template_directory') ?>/inc/img/top/favicon.ico" />  
 <title>株式会社青野工業</title>
 <link rel="stylesheet prefetch" href="<?php bloginfo('template_directory') ?>/inc/lib/font-awesome-4.7.0/css/font-awesome.min.css" />
-<!-- <link rel="stylesheet prefetch" href="<?php bloginfo('template_directory') ?>/style.css" /> -->
 <?php if(get_current_blog_id()==1){ ?>
 <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/style.css" />
 <?php }else{ ?>
