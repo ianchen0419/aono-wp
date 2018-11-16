@@ -78,7 +78,7 @@
 					<?php echo (get_current_blog_id()==1)?'ISO 14001:2015<br />- 登録番号:ASR-E0084<br />- 登録日:2006年2月20日<br />- 改定日:2017年9月5日<br />- 有効期限:2020年9月16日':'ISO 14001:2015<br />- Registered number: ASR-E0084<br />- Registered date: February 20th, 2006<br />- Revision date: September 5th, 2017<br />- Expiration date: September 16th, 2020' ?>
 					</div>
 					<div class="ios-item">
-					<?php echo (get_current_blog_id()==1)?'パナソニック(株)セミコンダクター社<br />品質自主保証会社 認定<br />2009年12月1日 取得':'Panasonic Corporation<br />Certification: Quality voluntary guarantee company<br />Acquired: December 1st, 2009' ?>
+					<?php echo (get_current_blog_id()==1)?'パナソニック(株)<br />セミコンダクター社様<br />品質自主保証会社 認定<br />2009年12月1日 取得':'Panasonic Corporation<br />Certification: Quality voluntary guarantee company<br />Acquired: December 1st, 2009' ?>
 					</div>
 			</div>
 
