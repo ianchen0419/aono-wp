@@ -42,8 +42,8 @@
 				<img src="<?php bloginfo('template_directory') ?>/inc/img/process/01.jpg" alt="試作" />
 				<div class="step-content">
 					<h2 class="step-title"><?php echo (get_current_blog_id()==1)?'Step 2) 試作':'Step 2) Prototype' ?></h2>
-					<h3 class="step-catch"><?php echo (get_current_blog_id()==1)?'量産性を考慮した施策トライアル':'Trial considering mass productivity' ?></h3>
-					<p>"<?php echo (get_current_blog_id()==1)?'注形品または切削加工でのモック作成も可能です。<br />一次試作から量産性を考慮した取組みを行っています。':'It is also possible to create mocks by casting or cutting.<br />We are making efforts that consider mass productivity from primary trial production stage.' ?>"</p>
+					<h3 class="step-catch"><?php echo (get_current_blog_id()==1)?'量産性を考慮した試作トライアル':'Trial considering mass productivity' ?></h3>
+					<p><?php echo (get_current_blog_id()==1)?'注形品または切削加工でのモック作成も可能です。<br />一次試作から量産性を考慮した取組みを行っています。':'It is also possible to create mocks by casting or cutting.<br />We are making efforts that consider mass productivity from primary trial production stage.' ?></p>
 				</div>
 			</div>
 			
@@ -57,7 +57,7 @@
 				<div class="step-content">
 					<h2 class="step-title"><?php echo (get_current_blog_id()==1)?'Step 3) 量産':'Step 3) Mass production' ?></h2>
 					<h3 class="step-catch"><?php echo (get_current_blog_id()==1)?'ハイサイクル・自動化による量産体制':'Mass production by high cycle and automation' ?></h3>
-					<p>"<?php echo (get_current_blog_id()==1)?'インサート成形による成形加工も可能です。<br />最新の電動機による全自動成形を行います。':'Molding by insert molding is also possible.<br />We perform fully automatic molding with the latest electric motor.' ?>"</p>
+					<p><?php echo (get_current_blog_id()==1)?'インサート成形による成形加工も可能です。<br />最新の電動機による全自動成形を行います。':'Molding by insert molding is also possible.<br />We perform fully automatic molding with the latest electric motor.' ?></p>
 				</div>
 			</div>
 
