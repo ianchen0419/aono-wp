@@ -167,6 +167,7 @@
 
 					$to = array ('yoshiki@aono-eng.co.jp', 'orimo@aono-eng.co.jp');
 					$subject = 'お問い合わせがございます'; 
+					$headers = array('Reply-To: '.$name.' <'.$mail.'>');
 					$content = 
 					'【貴社名】'.$company."\n".
 					'【部署名】'.$division."\n".
@@ -180,7 +181,7 @@
 
 
 
-					if(wp_mail($to, $subject, $content)) {
+					if(wp_mail($to, $subject, $content, $headers)) {
 					    //成功時の記述
 						// print_r('送信成功しました');
 						if(get_current_blog_id()==1){
